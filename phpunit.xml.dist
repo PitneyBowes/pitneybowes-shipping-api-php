@@ -1,0 +1,22 @@
+<phpunit bootstrap="lib/pbshipping.php">
+  <testsuites>
+  	<testsuite name="address">
+  		<file>test/AddressTest.php</file>
+  	</testsuite>
+   	<testsuite name="manifest">
+  		<file>test/ManifestTest.php</file>
+  	</testsuite>   	
+   	<testsuite name="merchant">
+  		<file>test/MerchantTest.php</file>
+  	</testsuite> 	
+  	<testsuite name="shipment">
+  		<file>test/ShipmentTest.php</file>
+  	</testsuite>  	
+  	<testsuite name="transactionreport">
+  		<file>test/TransactionReportTest.php</file>
+  	</testsuite>  	
+    <testsuite name="all">
+      <directory>test</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
