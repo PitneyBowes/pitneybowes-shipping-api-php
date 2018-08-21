@@ -51,7 +51,12 @@ class PBShippingAuthentication {
     		'Authorization: Basic ' . $encoded_cred
 			);
 		$data = 'grant_type=client_credentials';
-		$url = "https://api-sandbox.pitneybowes.com/oauth/token";
+		
+    	if (PBShipping::$is_production == false)
+			$api_server = PBShipping::$sandbox; 
+		else
+			$api_server = PBShipping::$production;	
+		$url = sprintf("%s/oauth/token", $api_server);
 		
     	$curl = curl_init();
     	curl_setopt($curl, CURLOPT_POST, 1);
