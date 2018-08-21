@@ -8,7 +8,7 @@ multi-carrier applications.
 This package provides a wrapper layer allowing easy access to the Pitney Bowes 
 shipping REST APIs in the PHP scripting language.  
 
-You would need a Pitney Bowers developer account for testing and using the API
+You would need a Pitney Bowes developer account for testing and using the API
 and the client library.
 
 For more informaton please visit the 
