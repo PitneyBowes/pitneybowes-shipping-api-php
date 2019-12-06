@@ -1,3 +1,5 @@
+# &#x1F534; DEPRECATED . THIS PROJECT IS NO LONGER MAINTAINED 
+
 # Pitney Bowes Shipping Client Library for PHP
 
 The Pitney Bowes Shipping Services APIs provide easy access to United States 
