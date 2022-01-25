@@ -50,6 +50,7 @@ class Carrier
     const PBI = 'PBI';
     const FEDEX = 'FEDEX';
     const USP = 'USP';
+    const PBCS = 'PBCS'
     
     /**
      * Gets allowable values of the enum
@@ -64,6 +65,7 @@ class Carrier
             self::PBI,
             self::FEDEX,
             self::USP,
+            self::PBCS,
         ];
     }
 }
