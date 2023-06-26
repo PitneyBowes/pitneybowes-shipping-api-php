@@ -85,6 +85,7 @@ class Services
     const EXS = 'EXS';
     const EXP_FREIGHT = 'EXP_FREIGHT';
     const XPD_FREIGHT = 'XPD_FREIGHT';
+	const UGA = 'UGA';
     
     /**
      * Gets allowable values of the enum
@@ -134,6 +135,7 @@ class Services
             self::EXS,
             self::EXP_FREIGHT,
             self::XPD_FREIGHT,
+			self::UGA,
         ];
     }
 }
